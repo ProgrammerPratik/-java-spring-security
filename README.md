@@ -1,4 +1,4 @@
-# Spring Security Authentication Demo
+# Simple Spring Security Authentication Demonstration
 
 ## Project Overview
 
