@@ -99,9 +99,9 @@ public class WebSecurityConfig {
 git clone https://github.com/ProgrammerPratik/java-spring-security
 cd java-spring-security
 ```
-3. Ensure Java version 23 and Maven are installed (this specific project uses java 23)
-4. Run `./mvnw spring-boot:run` OR you can use any IDE like intellij to build and run project
-5. Access at `http://localhost:8080`
+2. Ensure Java version 23 and Maven are installed (this specific project uses java 23)
+3. Run `./mvnw spring-boot:run` OR you can use any IDE like intellij to build and run project
+4. Access at `http://localhost:8080`
 
 ## Default Login Credentials (can be changed)
 
