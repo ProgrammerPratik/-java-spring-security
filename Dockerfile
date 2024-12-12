@@ -2,7 +2,7 @@
 FROM amazoncorretto:23 AS builder
 WORKDIR /app
 COPY . .
-RUN ./mvnw clean package
+RUN mvnw clean package
 
 # Stage 2: Run the application
 FROM amazoncorretto:23
