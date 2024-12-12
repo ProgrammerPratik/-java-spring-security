@@ -14,6 +14,10 @@ https://github.com/user-attachments/assets/b9184010-e989-4d20-966f-15a4a066450a
 - User authentication with in-memory user management
 - Thymeleaf integration for dynamic views
 
+## Simple illustration explaining flow of working:
+
+<img width="1796" alt="Untitled" src="https://github.com/user-attachments/assets/68828b07-0bd4-425d-b478-e1b2f45d06a9" />
+
 ## Technologies Used
 
 - Spring Boot
