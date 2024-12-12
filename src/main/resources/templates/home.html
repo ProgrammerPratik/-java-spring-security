@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Welcome</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+<div class="bg-white p-8 rounded-lg shadow-md max-w-md w-full">
+    <h1 class="text-2xl font-bold mb-4 text-center">YO, Welcome to Our PUBLIC page</h1>
+    <p class="text-gray-600 mb-6 text-center">
+        Want to read our
+        <a th:href="@{/hello}" class="text-blue-600 hover:underline">exclusive articles</a>?
+    </p>
+    <div class="text-center">
+        <p class="text-sm text-gray-500">
+            Articles are available only for logged-in users (secure)
+        </p>
+    </div>
+</div>
+</body>
+</html>
